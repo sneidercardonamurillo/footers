@@ -1,0 +1,19 @@
+h2 {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 48;
+    color: rgb(10, 10, 10);
+    transition: color 0.3s ease; 
+    transition-duration: 2s;
+}
+
+h2:hover {
+    color: rgb(8, 148, 241);
+    clip-path:  circle(50% at 50% 50% at top right);
+}
+h2 span {
+    
+    font-weight: bold;
+}
